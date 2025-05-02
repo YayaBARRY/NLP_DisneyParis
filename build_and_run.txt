@@ -3,3 +3,16 @@ env_nlp\Scripts\activate
 
 # Lance l'appli
 streamlit run app.py
+
+# Supprime le remote existant s’il y en a un
+git remote remove origin 2>/dev/null
+
+# Ajoute le nouveau remote
+git remote add origin https://github.com/YayaBARRY/...
+
+# Renomme la branche locale en main
+git branch -M main
+
+# Pousse vers GitHub
+git push -u origin main
+echo "✅ Déploiement Git terminé !"
