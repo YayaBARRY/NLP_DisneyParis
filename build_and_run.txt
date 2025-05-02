@@ -1,0 +1,5 @@
+# Active l'environnement virtuel
+env_nlp\Scripts\activate
+
+# Lance l'appli
+streamlit run app.py
